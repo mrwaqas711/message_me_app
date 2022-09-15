@@ -73,4 +73,6 @@ Rails.application.configure do
 
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
+  # if you are using cloud base services then do this for action cable
+  # config.action_cable.allowed_request_origins = ['http://c9.io']
 end
